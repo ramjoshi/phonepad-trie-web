@@ -1,0 +1,56 @@
+.reset {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    .reset
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    background-image: url('../images/alice.jpg');
+    background-repeat: no-repeat;
+}
+
+ul, li {
+    .reset;
+    list-style-type: none;
+}
+
+.half {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 10em;
+}
+
+#numberin {
+    font-size: 2em;
+    float: right;
+    margin-right: 1em;
+    border: 4px solid black;
+}
+
+#suggestions {
+    font-size: 2em;
+    float: left;
+    margin-left: 1em;
+
+    li {
+        display: block;
+        overflow: auto;
+        width: 10em;
+    }
+    .word {
+        float: left;
+    }
+    .count {
+        font-size: .65em;
+        float: right;
+        padding-top: .45em;
+    }
+}
+
+
